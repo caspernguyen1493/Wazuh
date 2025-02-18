@@ -1,26 +1,28 @@
-# TRIỂN KHAI MULTINODE KOLLA ANSIBLE VỚI OPENSTACK ZED RELEASE
+# TRIỂN KHAI VÀ ỨNG DỤNG WAZUH TRONG PHÁT HIỆN XÂM NHẬP TRÊN HỆ THỐNG
 
 ## 📌 Ghi chú
-Dự án này được thực hiện trong khuôn khổ môn học ***Quản trị mạng và Hệ thống*** *(NT132.O11.ANTT)* tại UIT.
+Dự án này được thực hiện trong khuôn khổ môn học ***Hệ thống tìm kiếm, phát hiện và ngăn ngừa xâm nhập*** *(NT204.O21.ANTT))* tại UIT.
 
 ## Nhóm thực hiện 
-| Họ tên | MSSV |
-| :--- | :--- |
-| Nguyễn Đức Tuấn Nguyên | 21521202 |
-| Bùi Quốc Huy | 21520911 |
-| Nguyễn Quang Thắng | 21522591 |
-| Nguyễn Thanh Tuấn | 21522756 |
-| Nguyễn Triệu Thiên Bảo (Tôi)| 21520155 |
+| Họ tên | Github | MSSV |
+| :--- | :--- | :--- |
+| NGUYỄN THỊ MINH CHÂU | [zerizennie](https://github.com/zerizennie) | 21520645 |
+| NGUYỄN PHƯƠNG TRINH | [himorher](https://github.com/himorher) | 21521581 |
+| NGUYỄN TRIỆU THIÊN BẢO | [caspernguyen1493](https://github.com/caspernguyen1493) | 21520155 |
+| NGUYỄN THÀNH ĐẠT | | 21521940 |
+| TRẦN VĂN THÁI | | 21522581 |
 
 ## Mục tiêu
-Triển khai OpenStack Zed Release bằng Kolla Ansible trên mô hình multi-node nhằm xây dựng môi trường ảo hóa hạ tầng mạnh mẽ, tự động hóa việc triển khai và quản lý các dịch vụ OpenStack. Quá trình này giúp tối ưu hóa hiệu suất, tăng tính sẵn sàng và đảm bảo khả năng mở rộng của hệ thống.
+- Tìm hiểu và triển khai Wazuh Agent và Server trong hệ thống. 
+- Giám sát log, phát hiện hành vi bất thường trong hệ thống.
+- Mô phỏng các cuộc tấn công và đưa ra biện pháp phản ứng.
+- Triển khai khả năng EDR của Wazuh qua các script để tự động phản ứng trước các sự cố 
 
 ## Kỹ năng và bài học rút ra
-
-- Cấu hình và triển khai OpenStack bằng Kolla Ansible trên nhiều node.
-- Hiểu kiến trúc và các thành phần chính của OpenStack Zed Release.
-- Thực hành debug và khắc phục sự cố trong quá trình triển khai OpenStack multi-node.
-- Triển khai VM phục vụ tính toán trên Openstack
+- Cấu hình và triển khai Wazuh trên môi trường thực tế
+- Phân tích log và phát hiện xâm nhập
+- Nhận diện dấu hiệu tấn công như brute force, privilege escalation, malware.
+- Viết quy tắc và tùy chỉnh Wazuh cho từng hệ thống
 
 ## Công cụ sử dụng
-<img src="https://img.shields.io/badge/-Azure-0089D6?&style=for-the-badge&logo=microsoft-azure&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/-OpenStack-ED1944?&style=for-the-badge&logo=openstack&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/-Kolla_Ansible-FF6600?&style=for-the-badge&logo=ansible&logoColor=white" />
+<img src="https://img.shields.io/badge/-VMware-607078?style=for-the-badge&logo=vmware&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/-Wazuh-0055A4?style=for-the-badge&logo=wazuh&logoColor=white" />
