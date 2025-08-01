@@ -18,7 +18,7 @@ Dự án này được thực hiện trong khuôn khổ môn học ***Hệ thố
 - Mô phỏng các cuộc tấn công và đưa ra biện pháp phản ứng.
 - Triển khai khả năng EDR của Wazuh qua các script để tự động phản ứng trước các sự cố 
 
-## Kỹ năng và bài học rút ra
+## Những ý chính trong project này
 - Cấu hình và triển khai Wazuh trên môi trường thực tế
 - Phân tích log và phát hiện xâm nhập
 - Nhận diện dấu hiệu tấn công như brute force, privilege escalation, malware.
